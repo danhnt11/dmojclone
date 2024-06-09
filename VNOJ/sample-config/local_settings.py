@@ -122,7 +122,7 @@ SERVER_EMAIL = 'DMOJ: Modern Online Judge <errors@dmoj.ca>'
 # webserver to serve the static files. This is the directory where all the
 # static files DMOJ uses will be collected to.
 # You must configure your webserver to serve this directory as /static/ in production.
-STATIC_ROOT = '/home/localserver/site/static'
+STATIC_ROOT = '/home/local/site/static'
 
 # URL to access static files.
 STATIC_URL = '/static/'
@@ -130,13 +130,13 @@ STATIC_URL = '/static/'
 # Uncomment to use hashed filenames with the cache framework.
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.ManifestStaticFilesStorage'
 
-DMOJ_PROBLEM_DATA_ROOT = '/home/localserver/site/problems/'
+DMOJ_PROBLEM_DATA_ROOT = '/home/local/site/problems/'
 ############################################
 ########## DMOJ-specific settings ##########
 ############################################
 
 ## DMOJ site display settings.
-SITE_NAME = 'DMOJ'
+SITE_NAME = 'VinhPhuoc2'
 SITE_LONG_NAME = 'DMOJ: Modern Online Judge'
 SITE_ADMIN_EMAIL = 'admin@example.com'
 TERMS_OF_SERVICE_URL = '//dmoj.ca/tos/'  # Use a flatpage.
