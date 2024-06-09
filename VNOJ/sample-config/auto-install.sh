@@ -10,7 +10,7 @@ sudo apt update -y
 sudo apt install -y mariadb-server libmysqlclient-dev
 sudo service mysql start
 sudo mysql -e "CREATE DATABASE dmoj DEFAULT CHARACTER SET utf8mb4 DEFAULT COLLATE utf8mb4_general_ci;"
-sudo mysql -e "GRANT ALL PRIVILEGES ON dmoj.* TO 'dmoj'@'localhost' IDENTIFIED BY 'danhnt1990';"
+sudo mysql -e "GRANT ALL PRIVILEGES ON dmoj.* TO 'dmoj'@'localhost' IDENTIFIED BY 'dnt1990';"
 mariadb-tzinfo-to-sql /usr/share/zoneinfo | sudo mariadb -u root mysql
 
 # Install with virtual environment
