@@ -36,7 +36,7 @@ python3 manage.py loaddata navbar
 python3 manage.py loaddata language_small
 python3 manage.py loaddata demo
 cd problems
-wget https://raw.githubusercontent.com/danhnt11/dmojclone/main/VNOJ/sample-config/local_settings.py
+wget https://raw.githubusercontent.com/danhnt11/dmojclone/main/VNOJ/sample-config/judge01.yml
 cd ..
 python3 manage.py addjudge judge01 "abcdefghijklmnopqrstuvwxyz"
 pip3 install dmoj
