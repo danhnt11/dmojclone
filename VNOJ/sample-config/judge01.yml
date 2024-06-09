@@ -1,7 +1,7 @@
 id: judge01
 key: "abcdefghijklmnopqrstuvwxyz"
 problem_storage_globs:
-  - /home/localserver/site/problems/*
+  - /home/local/site/problems/*
 runtime:
   as_x64: /usr/bin/x86_64-linux-gnu-as
   as_x86: /usr/bin/as
@@ -17,6 +17,6 @@ runtime:
   ld_x64: /usr/bin/x86_64-linux-gnu-ld
   ld_x86: /usr/bin/ld
   perl: /usr/bin/perl
-  python3: /home/localserver/venv/bin/python3
+  python3: /home/local/venv/bin/python3
   sed: /usr/bin/sed
   tclsh: /usr/bin/tclsh
