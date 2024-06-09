@@ -25,7 +25,7 @@ pip3 install -r requirements.txt
 npm install
 mkdir problems media static
 cd dmoj
-wget https://raw.githubusercontent.com/VietThienTran/DeploymentTools/main/VNOJ/sample-config/local_settings.py
+wget https://raw.githubusercontent.com/danhnt11/dmojclone/main/VNOJ/sample-config/local_settings.py
 cd ..
 ./make_style.sh
 python3 manage.py collectstatic
@@ -36,7 +36,7 @@ python3 manage.py loaddata navbar
 python3 manage.py loaddata language_small
 python3 manage.py loaddata demo
 cd problems
-wget https://raw.githubusercontent.com/VietThienTran/DeploymentTools/main/VNOJ/sample-config/judge01.yml
+wget https://raw.githubusercontent.com/danhnt11/dmojclone/main/VNOJ/sample-config/local_settings.py
 cd ..
 python3 manage.py addjudge judge01 "abcdefghijklmnopqrstuvwxyz"
 pip3 install dmoj
