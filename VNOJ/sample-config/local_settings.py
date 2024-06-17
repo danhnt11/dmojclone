@@ -136,8 +136,8 @@ DMOJ_PROBLEM_DATA_ROOT = '/home/local/site/problems/'
 ############################################
 
 ## DMOJ site display settings.
-SITE_NAME = 'VinhPhuoc2'
-SITE_LONG_NAME = 'DMOJ: Modern Online Judge'
+SITE_NAME = 'CLB Tin học Vĩnh Phước 2'
+SITE_LONG_NAME = 'VP2OJ: Modern Online Judge'
 SITE_ADMIN_EMAIL = 'admin@example.com'
 TERMS_OF_SERVICE_URL = '//dmoj.ca/tos/'  # Use a flatpage.
 
